@@ -1,0 +1,13 @@
+.Error-page{
+    display: block;
+    margin: 60px auto;
+
+}
+.Error-page-msg{
+    text-align: center;
+    text-transform: capitalize;
+    color: #383838;
+}
+.Error-page-msg a{
+    color: #383838;
+}
