@@ -272,12 +272,12 @@ h2::before{
     .split-section{
         display: flex;
         flex-direction: column;
-
+        margin: 0;
     }
     .main{
-
-        width: auto;
-        display: block;
+        margin: 10px;
+        width: 100%;
+        display: flex;
         flex-direction: column;
     }
     .main .text{
@@ -289,16 +289,21 @@ h2::before{
         text-align: center;
     }
     .main .option {
-        
+        /* left: 10px;
+        right: 10px; */
         height: 90px;
         line-height: 90px;
         overflow: hidden;
+        width: 100%;
+        display: grid;
     }
     .option li {
         list-style: none;
-        font-size: 60px;
-        font-weight: 300;
+        font-size: 50px;
+        font-weight: 200;
         position: relative;
+        left: 10px;
+        /* right: 20px; */
         top: 0;
         animation: slide 16s steps(4) infinite;
         color: #face30;
@@ -308,6 +313,9 @@ h2::before{
         position: relative;
         line-height: 90px;
         /* margin: 5px 0; */
+    }
+    .main .option{
+        margin-left: 0;
     }
     @keyframes slide {
         100% {
@@ -319,14 +327,14 @@ h2::before{
         position: absolute;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 120%;
         background: black;
         border-left: 2px solid red;
         animation: typing 4s steps(10) infinite;
     }
     @keyframes typing {
         40%,60%{
-            left: calc(100% + 60px);
+            left: calc(100% + 50px);
         }
         100%{
             left: 0;
