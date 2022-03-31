@@ -225,10 +225,11 @@ h2::before{
 .line{
     /* position: absolute; */
     display: block;
-    height: 5px;
-    width: 30px;
+    height: 7px;
+    width: 100vh;
     background: #face30;
-    margin: 2px 3px;
+    margin: 8px 0;
+    padding: 0;
 }
 
 /* responsive css */
@@ -241,8 +242,9 @@ h2::before{
     }
     .burger{
         display: block;
-        margin: 0 auto;
+        margin: 20px auto;
     }
+    
     nav{
         
         display: none;
@@ -263,7 +265,7 @@ h2::before{
     h2{
         display: block;
         margin: 20px auto;
-        font-size: 35px;
+        font-size: 40px;
         height: 60px;
     }
     .section{
