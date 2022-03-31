@@ -6,6 +6,7 @@
     margin: 0;
    /* background-color: red; */
    font-family: 'Poppins', sans-serif;
+   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
    color: #face30;
    
 
@@ -182,6 +183,7 @@ h2::before{
     
 }
 .second-half .half-img{
+    
     filter: invert(100%);
     width: 100%;
     height: 500px;
