@@ -180,7 +180,7 @@ h2::before{
 .second-half{
     width: 50%;
     height: 500px;
-    background-image: url('img/19362653.jpg');
+    background-image: url('/img/19362653.jpg');
     background-size: cover;
     background-position: center;
     filter: invert(100%);
