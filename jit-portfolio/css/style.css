@@ -834,4 +834,7 @@ h3.my-profession{
         max-width: 100%;
         
     }
+    .about .about-content .personal-info .info-item span {
+        word-wrap: break-word;
+    }
 }
