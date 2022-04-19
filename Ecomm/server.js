@@ -21,6 +21,17 @@ app.get("/",(req,res)=>{
     // res.sendFile(StaticPath)
 })
 
+app.get('signup',(req,res)=>{
+    res.sendFile(path.join(staticPath,'signup.html'))
+})
+
+app.get('/404',(req,res)=>{
+    res.sendFile(path.join(staticPath,'404.html'))
+})
+app.use((req,res)=>{
+    res.redirect('/404')
+})
+
 app.listen(3000,()=>{
     console.log("Listening to Port 3000....")
 })
