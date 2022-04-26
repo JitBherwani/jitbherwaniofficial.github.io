@@ -42,7 +42,7 @@ function animate(){
     const width = document.body.width;
     const height = document.body.width;
     const randomWidth = Math.round(Math.random(width)*350);
-    const randomHeight = Math.round(Math.random(height)*700);
+    const randomHeight = Math.round(Math.random(height)*800);
     const boxStyle = box.style.transform = `translate(${randomWidth}px,${randomHeight}px`;
     box.style.transition = "1s ease"
     console.log(boxStyle)
