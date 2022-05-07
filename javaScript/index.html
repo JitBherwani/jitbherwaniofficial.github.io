@@ -16,7 +16,7 @@
         } */
 
 
-        .container{
+        /* .container{
             border: 1px solid red;
             width: 1200px;
             height: 500px;
@@ -27,7 +27,7 @@
             -webkit-transition: background-color 0.7s;
             -moz-transition: background-color 0.7s;
             transition: background-color 0.7s;
-        }
+        } */
 
 
         @media only screen and (max-width:500px){
@@ -41,11 +41,22 @@
     </style>
 </head>
 
-<body>
+<body onload="animate_string('target')">
+    <div class="container">
+
+    </div>
+    <button onclick="printCurrentPage()">Print Page</button>
+    
+    <!-- <pre id="target"> Jit Bherwani </pre> -->
+  
+    <h1 id="target"> This is a Body of ur page </h1>
     <!-- <div class="container"></div> -->
     <!-- <script src="app1.js"></script> -->
     <!-- <script src="app2.js"></script> -->
-    <script src="app3.js"></script>
+    <!-- <script src="app3.js"></script> -->
+    <!-- <script src="app4.js"></script> -->
+    <script src="app5.js"></script>
+    <script src="app6.js"></script>
 </body>
 
 </html>
