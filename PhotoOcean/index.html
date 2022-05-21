@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
     <title>Photo Ocean</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -31,6 +35,11 @@
             width: 100%;
             margin-top: 5px;
         }
+        #img{
+            bottom: 0;
+            right: 20px;
+            position: sticky;
+        }
 
         @media screen and (max-width:600px){
             .image-container{
@@ -42,7 +51,7 @@
 <body>
     <h1>PHOTO OCEAN</h1>
     <div class="image-container" id="image-container"></div>
-
+    <img id="img" src="favicon/favicon-32x32.png">
     <script>
         const imageContainer = document.getElementById('image-container');
         let apiUrl = 'https://api.unsplash.com/photos/random/?client_id=qOFOty8skYKp2dbSkK8eV1TrY7Wfxzqn2wy2pE7j4uU&count=30';
