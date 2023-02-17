@@ -1133,7 +1133,7 @@ label::after{
     
 }
 
-@media only screen and (max-width:640px) and (min-width:350px) {
+@media only screen and (max-width:640px) and (min-width:250px) {
 
     body{
         background: linear-gradient(#1b1b1b,rgba(24, 18, 18, 0.7));
