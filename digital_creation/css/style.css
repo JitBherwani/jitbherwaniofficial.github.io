@@ -395,6 +395,14 @@ label::after{
     
 }
 
+.sub-btn{
+    background-color: transparent;
+    border: 2px solid #b1b1b1;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 5px 15px;
+}
+
 .arrow_right{
     position: absolute;
     left: 5rem;
@@ -679,7 +687,7 @@ label::after{
     
 }
 
-@media only screen and (max-width: 1024px) and (min-width:768px) {
+@media only screen and (max-width: 1024px) and (min-width:640px) {
 
     .burger{
         z-index: 10;
@@ -837,10 +845,8 @@ label::after{
     }
 
     .welcome{
-        /* font-size: 1.3rem;
-        padding-top: 0; */
         line-height: 5rem;
-        padding-top: 20px;
+        padding-top: 3rem;
     }
     
     .header{
@@ -857,21 +863,28 @@ label::after{
     .para{
         font-size: 12px;
         padding-top: 10px;
-        width: 25rem;
+        width: 30rem;
     }
     
     .one{
-        right:160px;
-        bottom: 265px;
+        /* right:160px;
+        bottom: 265px; */
         font-size: 8rem;
         width: 300px;
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5rem;
     }
 
     .btn_container{
-        bottom: 185px;
-        left: 165px;
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1.5rem;
     }
-    
     .circle{
         display: none;
     }
@@ -893,10 +906,17 @@ label::after{
     #contact{
         padding-top: 2.5rem;
     }
+
+    .rectangle{
+        display: none;
+    }
     
+    .circle{
+        display: none;
+    }
 }
 
-@media only screen and (max-width: 768px) and (min-width:640px) {
+/* @media only screen and (max-width: 768px) and (min-width:640px) {
 
     .burger{
         z-index: 10;
@@ -940,9 +960,6 @@ label::after{
     }
 
     ul{
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
         flex-direction: column;
         border: none;
         margin-top: 0;
@@ -976,7 +993,6 @@ label::after{
     .alignment{
         width: calc(100% / 3);
         min-height: 10rem;
-        /* padding-top: 10px; */
         margin-top: 0;
         padding-left: 5px;
         padding-right: 5px;
@@ -989,7 +1005,6 @@ label::after{
     img{
         height: 40px;
         width: 40px;
-        /* margin: 10px 5px; */
         margin: 0;
     }
 
@@ -1131,7 +1146,7 @@ label::after{
         padding-top: 2.5rem;
     }
     
-}
+} */
 
 @media only screen and (max-width:640px) and (min-width:250px) {
 
