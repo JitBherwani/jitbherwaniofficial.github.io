@@ -17,6 +17,7 @@ body {
   margin: 0;
   background: #000;
   font-family: 'Nunito', sans-serif;
+  overflow-y: hidden;
 }
 
 /* --- Navigation Menu ------------------------------ */
@@ -211,9 +212,15 @@ section {
 }
 
 section#home {
-  background-image: url("https://images.unsplash.com/photo-1581453904507-626ddb717f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1581453904507-626ddb717f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+  background-size: cover;
+  background-position: center center; */
+  background-image: url('19362653.jpg');
+  filter: invert(100%);
   background-size: cover;
   background-position: center center;
+  background-color: #21292c;
+  z-index: -1;
 }
 
 section#home a {
