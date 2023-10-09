@@ -1,0 +1,85 @@
+<div class="drag-container">
+        <ul class="drag-list">
+             <!-- On Hold Column -->
+             <li class="drag-column on-hold-column">
+                <span class="header">
+                    <h1>Backlog (CSAT)</h1>
+                </span>
+                <!-- Backlog Content -->
+                <div id="on-hold-content">
+                    <ul class="drag-item-list" id="on-hold-list">
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                    </ul>
+                </div>
+                <!-- Add Button Group -->
+                <div class="add-btn-group">
+                    <div class="add-btn">
+                        <div class="plus-sign">+</div>
+                        <span>Add Item</span>
+                    </div>
+                    <div class="add-btn solid">
+                        <span>Save Item</span>
+                    </div>
+                    <div class="add-container">
+                        <div class="add-item"></div>
+                    </div>
+                </div>
+            </li>
+            <!-- Progress Column -->
+            <li class="drag-column progress-column">
+                <span class="header">
+                    <h1>In Progress</h1>
+                </span>
+                <!-- Backlog Content -->
+                <div id="progress-content">
+                    <ul class="drag-item-list" id="progress-list">
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                    </ul>
+                </div>
+                <!-- Add Button Group -->
+                <div class="add-btn-group">
+                    <div class="add-btn">
+                        <div class="plus-sign">+</div>
+                        <span>Add Item</span>
+                    </div>
+                    <div class="add-btn solid">
+                        <span>Save Item</span>
+                    </div>
+                    <div class="add-container">
+                        <div class="add-item"></div>
+                    </div>
+                </div>
+            </li>
+            <!-- Complete Column -->
+            <li class="drag-column backlog-column">
+                <span class="header">
+                    <h1>Complete + Revision</h1>
+                </span>
+                <!-- Backlog Content -->
+                <div id="backlog-content">
+                    <ul class="drag-item-list" id="backlog-list">
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                    </ul>
+                </div>
+                <!-- Add Button Group -->
+                <div class="add-btn-group">
+                    <div class="add-btn">
+                        <div class="plus-sign">+</div>
+                        <span>Add Item</span>
+                    </div>
+                    <div class="add-btn solid">
+                        <span>Save Item</span>
+                    </div>
+                    <div class="add-container">
+                        <div class="add-item"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
