@@ -56,10 +56,10 @@
       <button class="our_services btn">Our services</button>
     </div>
   </section>
-  
+
   <div class="container">
     <div class="services_container alignment">
-      <img src="img/social-media.png" alt="">
+      <img class="main-img" src="img/social-media.png" alt="">
       <div>
         <h3 class="title">Digital Marketing</h3>
         <p class="service_para">
@@ -70,7 +70,7 @@
       </div>
     </div>
     <div class="beyond_consulting alignment">
-      <img src="img/consultant-service.png" alt="">
+      <img class="main-img" src="img/consultant-service.png" alt="">
       <div>
         <h3 class="title">Beyond Consulting</h3>
         <p class="service_para">
@@ -82,7 +82,7 @@
       </div>
     </div>
     <div class="graphic_design alignment">
-      <img src="img/graphic-design.png" alt="">
+      <img class="main-img" src="img/graphic-design.png" alt="">
       <div>
         <h3 class="title">Graphic Design</h3>
         <p class="service_para">
@@ -112,50 +112,161 @@
   <svg class="rectangle" width="100" height="200" viewBox="0 0 100 100">
     <defs>
       <pattern id="lines" height="10" width="10" patternUnits="userSpaceOnUse">
-        <line x1="0" y1="4" x2="2" y2="4" stroke-width="1" stroke="white"/>
+        <line x1="0" y1="4" x2="2" y2="4" stroke-width="1" stroke="white" />
       </pattern>
     </defs>
     <rect x="10" y="10" width="40" height="160" fill="url(#lines)" />
   </svg>
 
 
-    <!-- <section id="services"></section> -->
-    <!-- <section id="about"></section> -->
-    <section id="contact">
-      <!-- <div class="arrow_right"></div>
-      <div class="arrow_left"></div> -->
-      <div class="header">Contact Us</div>
-      <div class="contact_container">
-        <form action="" method="post">
-          <div class="content">
-            <label for="name">Name</label>
-            <input type="text" placeholder="Enter Your name" id="">
-          </div>
-          <div class="content">
-            <label for="email">Email</label>
-            <input type="text" placeholder="Enter Your email" id="">
-          </div>
-          <div class="content">
-            <div class="dis_flex">
-              <label for="male">Male</label>
-              <input class="radio" type="radio" name="gender" id="">
-              <label for="female">Female</label>
-              <input class="radio" type="radio" name="gender" id="">
-            </div>
-          </div>
-          <div class="content">
-            <label for="message">Message</label>
-            <textarea placeholder="Message" name="" id="" cols="30" rows="7"></textarea>
-          </div>
-          <div class="content">
-            <button class="sub-btn" type="submit">Submit</button>
-          </div>
-        </form>
+  <section id="services">
+    <div class="box_container">
+
+      <div class="service_box">
+        <div class="iconandtitlecontainer">
+          <i class="fa-solid fa-desktop"></i>
+          <h2>Web Development</h2>
+        </div>
+        <p class="service-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint eveniet sit
+          architecto facilis est eligendi rerum quos temporibus, nemo ratione enim. Neque, veritatis facilis?</p>
       </div>
-    </section>
-    <!-- <section id="blog"></section> -->
-    <!-- <section id="signup"></section> -->
-    <!-- <section id="signin"></section> -->
+      <div class="service_box">
+        <div class="iconandtitlecontainer">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <h2>Mobile Development</h2>
+        </div>
+        <p class="service-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint eveniet sit
+          architecto facilis est eligendi rerum quos temporibus, nemo ratione enim. Neque, veritatis facilis?</p>
+      </div>
+      <div class="service_box">
+        <div class="iconandtitlecontainer">
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>Graphic Design</h2>
+        </div>
+        <p class="service-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint eveniet sit
+          architecto facilis est eligendi rerum quos temporibus, nemo ratione enim. Neque, veritatis facilis?</p>
+      </div>
+      <div class="service_box">
+        <div class="iconandtitlecontainer">
+          <i class="fa-solid fa-brands fa-node-js"></i>
+          <h2>Backend</h2>
+        </div>
+        <p class="service-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint eveniet sit
+          architecto facilis est eligendi rerum quos temporibus, nemo ratione enim. Neque, veritatis facilis?</p>
+      </div>
+      <div class="service_box">
+        <div class="iconandtitlecontainer">
+          <i class="fa-solid fa-cloud"></i>
+          <h2>Devops</h2>
+        </div>
+        <p class="service-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint eveniet sit
+          architecto facilis est eligendi rerum quos temporibus, nemo ratione enim. Neque, veritatis facilis?</p>
+      </div>
+      <div class="service_box">
+        <div class="iconandtitlecontainer">
+          <i class="fa-solid fa-chart-simple"></i>
+          <h2>Network</h2>
+        </div>
+        <p class="service-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint eveniet sit
+          architecto facilis est eligendi rerum quos temporibus, nemo ratione enim. Neque, veritatis facilis?</p>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="https://images.pexels.com/photos/414974/pexels-photo-414974.jpeg?auto=compress&cs=tinysrgb"
+            alt="Avatar" style="width:100%;height:100%;">
+        </div>
+        <div class="flip-card-back">
+          <img src="https://images.pexels.com/photos/2681319/pexels-photo-2681319.jpeg?auto=compress&cs=tinysrgb"
+            alt="Avatar" style="width:100%;height:100%;">
+        </div>
+      </div>
+    </div>
+
+    <p class="about-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit atque error perferendis. Tenetur inventore quas dignissimos est deleniti asperiores ipsam earum minima unde facilis necessitatibus modi sapiente at tempore hic eum velit, impedit ducimus. Nulla tempore cum sint ipsam temporibus quis tempora porro necessitatibus, culpa ex quo ad asperiores impedit quasi similique nam obcaecati fugiat earum, eius doloribus repellat voluptatem enim consequatur mollitia. Laborum quasi quidem magnam atque unde itaque cumque nemo, illo sit consequuntur odit. Modi beatae molestiae deleniti impedit, eum eligendi? Nihil, cupiditate? Facilis fugit molestiae, repellat ipsum corrupti aspernatur labore accusamus voluptate magni deserunt facere repudiandae. Itaque sit, sapiente ducimus veniam veritatis facilis doloremque nam labore placeat, autem doloribus nihil obcaecati corrupti blanditiis nemo. Recusandae nisi quam architecto, dignissimos sapiente voluptas harum aliquam cum atque quia ullam! Recusandae facere qui facilis neque cum doloremque ea repudiandae libero quasi porro voluptates repellendus magnam debitis, nulla aspernatur architecto amet vel. Aliquid omnis, hic non adipisci sit corrupti. Nemo, tempore! Voluptatibus dolor esse commodi molestiae debitis iusto qui reiciendis ipsam dolores, facilis fugit, sequi tempora inventore, ratione nam reprehenderit aliquid saepe. Doloribus, aspernatur ducimus mollitia debitis sit beatae iste, obcaecati voluptatibus, ad iure quae rerum repellat velit voluptatum sed voluptates!</p>
+  </section>
+  <section id="contact">
+    <!-- <div class="arrow_right"></div>
+      <div class="arrow_left"></div> -->
+    <div class="header">Contact Us</div>
+    <div class="contact_container">
+      <form action="" method="post">
+        <div class="content">
+          <label for="name">Name</label>
+          <input type="text" placeholder="Enter Your name" id="">
+        </div>
+        <div class="content">
+          <label for="email">Email</label>
+          <input type="text" placeholder="Enter Your email" id="">
+        </div>
+        <div class="content">
+          <div class="dis_flex">
+            <label for="male">Male</label>
+            <input class="radio" type="radio" name="gender" id="">
+            <label for="female" id="female">Female</label>
+            <input class="radio" type="radio" name="gender" id="">
+          </div>
+        </div>
+        <div class="content">
+          <label for="message">Message</label>
+          <textarea placeholder="Message" name="" id="" cols="30" rows="7"></textarea>
+        </div>
+        <div class="content btn-sub">
+          <button class="sub-btn" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section id="blog">
+    
+  </section>
+  <section id="signup">
+    <!-- <div class="arrow_right"></div>
+      <div class="arrow_left"></div> -->
+    <div class="header">Sign up</div>
+    <form action="" method="post" class="signup-form">
+
+      <div class="content">
+        <label for="email">Email</label>
+        <input type="text" placeholder="Enter Your email" id="">
+      </div>
+      <div class="content">
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter Your Password" id="">
+      </div>
+      <div class="content">
+        <label for="confirmpassword">Confirm Password</label>
+        <input type="password" placeholder="Confirm Password" id="">
+      </div>
+      <div class="content btn-sub">
+        <button class="sub-btn" type="submit">Submit</button>
+      </div>
+    </form>
+  </section>
+  <section id="signin">
+    <!-- <div class="arrow_right"></div>
+      <div class="arrow_left"></div> -->
+    <div class="header">Sign in</div>
+    <form action="" method="post" class="signin-form">
+
+      <div class="content">
+        <label for="email">Email</label>
+        <input type="text" placeholder="Enter Your Email" id="">
+      </div>
+
+      <div class="content">
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter Your Password" name=""></input>
+      </div>
+      <div class="content btn-sub">
+        <button class="sub-btn" type="submit">Submit</button>
+      </div>
+    </form>
+  </section>
 
   <script src="index.js"></script>
 </body>
